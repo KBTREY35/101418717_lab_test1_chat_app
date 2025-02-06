@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #444;
+  margin: 20px 0;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Centering the content */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input, select, textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  width: 94%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Chat Window */
+#chat-window {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background: #f9f9f9;
+  margin: 20px 0;
+}
+
+.message {
+  padding: 5px 10px;
+  margin: 5px 0;
+  background: #e9ecef;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.message.me {
+  background: #007bff;
+  color: white;
+  text-align: right;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Room Selection */
+.room-list {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+
+.room-list li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.room-list a {
+  font-weight: bold;
+  color: #007bff;
+}
